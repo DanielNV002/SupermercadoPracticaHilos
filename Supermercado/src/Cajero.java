@@ -25,7 +25,6 @@ public class Cajero implements Runnable{
             System.out.println("Cajero " + nombre + " procesó  el producto " + p.getNombre() + " de " + c.getNombre());
             sem.release();
         }
-
     }
 
     @Override

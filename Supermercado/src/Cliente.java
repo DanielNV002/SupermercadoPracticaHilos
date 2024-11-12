@@ -34,7 +34,6 @@ public class Cliente implements Runnable{
         this.cajero = cajero;
     }
 
-
     @Override
     public void run() {
         try {
